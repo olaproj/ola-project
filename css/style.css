@@ -476,6 +476,7 @@ a:focus {
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 5px;
+    margin-left: 5px;
 }
 
 .section-header h2 {
@@ -2259,4 +2260,31 @@ a:focus {
      border: none;
     background: #030f27;
     border-color: #fdbe33;
+}
+
+
+#btn-hiring{
+    margin-right: 25px;
+  transition: all 0.3s linear;
+  cursor: pointer;
+  animation: bounce 2s ease-in-out infinite;
+}
+#btn-hiring-abt{
+      transition: all 0.3s linear;
+  cursor: pointer;
+  animation: bounce 2s ease-in-out infinite;
+}
+.sidebar-toggle:hover {
+  color: hsl(205, 90%, 76%);
+}
+@keyframes bounce {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
